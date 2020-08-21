@@ -1,3 +1,25 @@
 {
-  "description": "package.json is a config file, that is needed by CodeSandbox - the online editor you are probably looking at now :) We will learn about this file later. You do not need it in your projects files now."
+  "name": "task-4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist && webpack --config webpack.config.js",
+    "start": "webpack-dev-server"
+  },
+  "author": "CodeRoad",
+  "license": "MIT",
+  "dependencies": {
+    "lodash-es": "^4.17.15"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^6.0.3",
+    "css-loader": "^4.2.1",
+    "html-webpack-plugin": "^4.3.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
 }
